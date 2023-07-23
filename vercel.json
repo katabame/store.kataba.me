@@ -1,0 +1,11 @@
+{
+  "framework": "vite",
+  "buildCommand": "yarn build:admin",
+  "outputDirectory": "build",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
